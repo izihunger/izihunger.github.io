@@ -2550,6 +2550,19 @@ input, select, textarea {
 
 /* Icon */
 
+	.ico {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+		text-align: center;
+		scale: 1.25;
+		display: inline-block;
+		height: 2.75em;
+		line-height: 2.75em;
+		width: 2.75em;
+		margin: 0 0 1rem 0;
+	}
+
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -6868,7 +6881,7 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			overflow: hidden;
-			width: 22.5rem;
+			width: 40rem;
 			max-width: 75vw;
 		}
 
